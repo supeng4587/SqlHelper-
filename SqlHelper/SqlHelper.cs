@@ -16,7 +16,7 @@ namespace SqlHelper
 {
     class SqlHelper
     {
-        #region 定义数据库链接字符串
+        #region 定义数据库链接字符串 //在这里做一个远程的修改
         private static readonly string _connMySql = ConfigurationManager.ConnectionStrings["connMySql"].ConnectionString;
         private static readonly string _connSqlite = ConfigurationManager.ConnectionStrings["connSqlite"].ConnectionString;
         private static readonly string _connAccess = ConfigurationManager.ConnectionStrings["connAccess"].ConnectionString;
